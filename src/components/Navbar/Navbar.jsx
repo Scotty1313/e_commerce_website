@@ -35,7 +35,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
           <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-            <img src={logo} alt="universe.js" height="35px" className={classes.image} /> Intergalactic Sale
+            <img src={logo} alt="universe.js" height="35px" className={classes.image} /> Intergalactic Sale (everythings got to go!) 
           </Typography>
           <div className={classes.grow} />
           {location.pathname === '/' && (
